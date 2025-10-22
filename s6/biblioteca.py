@@ -47,13 +47,13 @@ def eliminar_libro():
 def mostrar_libros():
     print("Libros en la biblioteca:")
     for titulo, info in biblioteca.items(): #por cada iteración, devuelve los items del diccionario
-        print(f"Título: {titulo}, Autor: {info['autor']}, Cantidad disponible: {info['cantidad']}")
+        print(f"Título: {titulo}, Autor: {info['autor']}, Cantidad disponible: {info['cantidad']}") #info devuelve la informacion contenida
 
 # Función para calcular la cantidad total de libros disponibles
 def total_libros():
     total = 0
     for info in biblioteca.values():
-        total += info["cantidad"]
+        total += info["cantidad"] #va sumando la cantidad de cada título, ej: 2+3= 5; 5+2= 7; 7+...
     print(f"Total de libros disponibles en la biblioteca: {total}")
 
 # Programa principal: MENÚ
