@@ -1,0 +1,20 @@
+BIBLIOTECA.PY:
+
+    PRIMER PROMPT:
+
+    Soy una alumna de DAM que está empezando a utilizar Python. Créame un programa con las siguientes instrucciones que sea muy sencillo y fácil de 
+    entender. Crea un pequeño sistema usando diccionarios cuya temática es de una biblioteca en la cual se gestionan los libros y su disponibilidad 
+    Para ello se debe: 
+    - Insertar, modificar y eliminar registros. 
+    - Calcular al menos una métrica (media, suma, máximos...). 
+    - Usar un bucle for para recorrer las claves y valores. 
+    - Realizar una adaptación personalizada
+
+    Me hace el código pero pregunta al usuario por la disponibilidad del libro asi que realizo un SEGUNDO PROMPT:
+    Lo que quiero es que me pongas un diccionario al principio con diversos libros añadidos en la biblioteca, con el titulo, 
+    autor y cantidades disponibles. En el código que me has mandado preguntas al usuario si esta disponible y eso no lo puede saber el usuario.
+    
+    También quiero añadir una función que permita al usuario ver la información de todos los libros que hay en la biblioteca, 
+    por lo que hago un TERCER PROMPT:
+
+    
