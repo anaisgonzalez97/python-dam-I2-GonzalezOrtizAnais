@@ -1,0 +1,36 @@
+PROMPT INICIAL ANIDADOS.PY:
+
+Tengo que hacer un ejercicio con python que te describiré a continuación. Ten en cuenta que soy nueva en python y que no sé mucho, por lo que tendrá que ser sencillo. 
+El ejercicio consiste en crear una estructura que contenga varios registros. Cada registro debe ser un diccionario con al menos tres campos que conforme una situación 
+práctica en vuestra cotidianeidad (en mi caso, libros leídos y por lee ). Hay que implementar funciones para: añadir registros, buscar un registro por un campo, 
+calcular una estadística (media, máximo, etc.). Controlar errores: duplicados, vacíos, tipos incorrectos.
+
+Tras lo corregido en clase, he cambiado lo siguiente:
+    - Eliminé biblioteca = [] global
+    - Añadí biblioteca como parámetro en cada función
+    - Funciones que modifican la lista devuelven return biblioteca
+
+El menú principal crea y maneja la lista
+Tras buscar un ejemplo práctico para una estructura inversa, las diferencias entre las dos estructuras que he observado son:
+
+- Lista de diccionarios:
+    - Ventaja: Fácil de recorrer secuencialmente
+    - Ventaja: Mantiene el orden de inserción
+    - Desventaja: Búsqueda más lenta por criterios específicos
+
+- Diccionario de listas (estructura inversa):
+    - Ventaja: Acceso rápido por categorías (géneros)
+    - Ventaja: Organización natural por grupos
+    - Desventaja: Más complejo de recorrer completamente
+
+¿QUÉ HE APRENDIDO CON ESTE EJERCICIO?
+- Listas y diccionarios: Las dos estructuras fundamentales de Python
+- Manejo de errores: Con try-except para entradas inválidas
+- Validación de datos: Verificar que no estén vacíos, sean del tipo correcto, etc.
+- Funciones: Organizar el código en bloques reutilizables
+- Control de duplicados: Evitar registros repetidos
+
+
+---------------------------------------------------------
+
+PROMPT INICIAL REFACTOR.PY:
