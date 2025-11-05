@@ -1,0 +1,24 @@
+
+PROMPT INICIAL:
+Primero solicité crear un módulo básico para análisis de precios:
+"Crea, de forma muy sencilla para alguien que está aprendiendo python, un pequeño módulo en Python para analizar una lista de precios, el módulo debe utilizar unas funciones útiles para trabajar con esa lista, sin repetir cálculos. Después crea un pequeño programa en precios.py en el que las utilices."
+
+PROMPT SECUNDARIO:
+Luego pedí añadir manejo robusto de errores:
+"Modifica los módulos anteriores para que sean más robustos. Usa todos los bloques hemos visto: try, except, else, finally y raise. Elabora dos casos de prueba donde se produzcan errores y el programa no se rompa"
+
+PROMPT DE ACLARACIÓN:
+Especifiqué los archivos requeridos para la entrega:
+"Tengo que entregar los siguientes archivos: auxprecios.py, precios.py, auxprecioserror.py, precioserror.py, módulos_favs.py, S7_prompts.txt"
+De este modo, especifiqué que deberia dividirse en esos módulos, pues antes no lo expliqué.
+
+Además, pregunto a la IA acerca de cosas que no conozco como el significado de isinstance o zerodivisionerror
+
+PROMT EN GRUPO:
+Propmt utilizado en standarNoEstandar.py:
+Teniendo en cuenta que mi grupo es compuesto por estudiantes que acaban de empezar con Python, cómo podríamos realizar este apartado:
+Investigación de módulos (estándar y no estándar).
+Elegid un módulo estándar y no estándar de Python, entended para qué sirve y elaborar una pequeña ficha en la que seleccionéis dos o tres funciones relevantes del módulo
+ y las expliquéis con un programa sencillito con su uso cambia este código para que request busque chistes en internet
+
+
