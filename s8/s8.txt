@@ -33,4 +33,30 @@ Tras buscar un ejemplo práctico para una estructura inversa, las diferencias en
 
 ---------------------------------------------------------
 
-PROMPT INICIAL REFACTOR.PY:
+REFACTOR.PY:
+
+ERRORES CORREGIDOS Y DECISIONES TOMADAS:
+1. CONTROL DE ENTRADAS NO NUMÉRICAS:
+Problema original: int(n) y int(nota) fallaban con texto
+Solución: Uso de .isdigit() para verificar números
+Decisión: Más simple que try-except para este caso básico
+
+2. EVITA DIVISIÓN POR CERO:
+Problema: sum(alumnos)/len(alumnos) podía dividir por cero
+Solución: if alumnos: antes del cálculo
+Decisión: Verificación simple pero efectiva
+
+3. VALIDACIÓN DE RANGOS:
+Problema: Notas podían ser negativas o mayores a 10
+Solución: 0 <= int(nota) <= 10
+Decisión: Rango educativo estándar 0-10
+
+4. MEJORA USABILIDAD:
+Problema: Mensajes poco claros
+Solución: Mensajes de error específicos
+Decisión: Feedback inmediato al usuario
+
+5. ESTRUCTURA MÁS CLARA:
+Problema: Código desorganizado
+Solución: Bucles while para validaciones
+Decisión: Mantiene simplicidad pero añade robustez
