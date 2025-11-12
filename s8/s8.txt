@@ -39,7 +39,7 @@ ERRORES CORREGIDOS Y DECISIONES TOMADAS:
 1. CONTROL DE ENTRADAS NO NUMÉRICAS:
 Problema original: int(n) y int(nota) fallaban con texto
 Solución: Uso de .isdigit() para verificar números
-Decisión: Más simple que try-except para este caso básico
+Decisión: Más simple que try-except para este caso
 
 2. EVITA DIVISIÓN POR CERO:
 Problema: sum(alumnos)/len(alumnos) podía dividir por cero
