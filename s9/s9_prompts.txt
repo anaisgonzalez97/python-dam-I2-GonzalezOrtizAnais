@@ -1,0 +1,25 @@
+
+FINAL.PY:
+
+    - PROMPT UTILIZADO:
+    "Necesito un programa en Python para controlar mis tareas diarias. Quiero poder:
+    Agregar nuevas tareas con su prioridad
+    Marcar tareas como completadas
+    Ver todas mis tareas de forma organizada
+
+    El programa debe ser sencillo pero funcional, que incluya al menos 3 funciones con parámetros y retorno, controle errores por si escribo algo mal, 
+    y use algún módulo de Python como datetime para las fechas.Soy principiante, así que por favor haz el código fácil de entender 
+    y bien comentado para poder aprender de él."
+
+    Asimismo, había cosas que no temrinaba de entender por lo que le he preguntado acerca de su uso, como por ejemplo el resultado += 
+    que aparece en mi código.
+
+
+    - CONCEPTOS CLAVES APRENDIDOS:
+    resultado +=: Cómo ir construyendo strings gradualmente dentro de bucles
+
+    enumerate(tareas, 1): Numerar elementos empezando desde 1 en lugar de 0
+
+    try/except: Proteger el programa contra entradas incorrectas del usuario
+
+    Estructura de datos anidados: Uso de diccionarios dentro de listas para organizar información compleja
